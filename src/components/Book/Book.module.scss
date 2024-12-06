@@ -1,0 +1,32 @@
+.container {
+  width: 300px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.iimg {
+  width: 300px;
+}
+
+.close {
+  position: absolute;
+  right: -5px;
+  top: -5px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 20px;
+  height: 20px;
+
+  background-color: rgba(0, 0, 0, 0.5);
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 50%;
+  color: white;
+  cursor: pointer;
+}
